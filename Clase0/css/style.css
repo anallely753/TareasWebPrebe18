@@ -1,0 +1,99 @@
+/**/
+html{
+	background: #B58851;
+}
+h1{ /*pone color al titulo 1 y al 5*/
+	color:  #B58851;
+  text-align: center;
+  font:Work Sans; 
+  font-size:3em;
+  font-family:Work Sans;
+  text-decoration: underline wavy;
+}
+
+.cajaheader {
+font-family: sans-serif;
+font-size: 18px;
+font-weight: 400;
+color: #ffffff;
+background: #013859; 
+margin: 20px 0px 10px; /*arriba,*/
+overflow: hidden;
+padding: 20px;
+}
+
+.cajaernestizq{
+	font-family: Work Sans;
+	font-size: 10px;
+	font-weight: 200;
+	color: #ffffff;
+	background: #58B7B8; 
+	/*margin: 15px 300px 25px;*/
+	overflow: hidden;
+	padding: 20px;
+	float: left;
+	/*border-bottom: 1px solid blue;*/
+}
+
+.cajaselenacentro{
+	font-family: Work Sans;
+	font-size: 10px;
+	font-weight: 200;
+	color: #ffffff;
+	background: #EB3E4A; 
+	margin: 100px 250px 35px;
+	overflow: hidden;
+	padding: 20px;
+	float: center;
+	/*border-bottom: 1px solid blue;*/
+
+}
+
+.cajafordder{
+	font-family: Work Sans;
+	font-size: 10px;
+	font-weight: 200;
+	color: #ffffff;
+	background: #58B7B8; 
+	margin: 0px 0px 25px;
+	overflow: hidden;
+	padding: 20px;
+	float: right;
+}
+
+#Sel{ /*Para cambiar especificamente un elemento*/
+	color: lightgray;
+	font-weight: bold;
+	font:Work Sans; 
+	font-size:2.2em;
+	font-family:'Work Sans';
+	text-align: center;
+	float: center;
+	vertical-align: bottom;
+}
+#Ernest{
+	color: #0F1F33;
+	font-weight: bold;
+	font:Work Sans; 
+	font-size:2.2em;
+	font-family:'Work Sans';
+	text-align: center;
+	float: center;
+	vertical-align: bottom;
+}
+#Ford{
+	color: #0F1F33;
+	font-weight: bold;
+	font:Work Sans; 
+	font-size:2.2em;
+	font-family:'Work Sans';
+	text-align: right;
+	float: center;
+	clear: right;
+	vertical-align: bottom;
+}
+
+.imagenRe{ /*Clases para dar formato a varios objetos*/
+	height: 125px;
+	width: 200px; 
+}
